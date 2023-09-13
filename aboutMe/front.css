@@ -1,0 +1,28 @@
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; /* Ensure the background doesn't overflow */
+  z-index: 1;
+  background-image: url("/media/2.png"); /* Add your background image URL here */
+  background-size: cover; /* Make the background image cover the container */
+  background-position: center; /* Center the background image */
+}
+.image-button {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button-image {
+  width: 833px; /* Adjust the width as needed */
+  height: auto;
+  border: none;
+  vertical-align: middle;
+  position: center;
+}
+
+.image-button:hover {
+  transform: scale(1.1); /* Adjust the scaling factor as desired */
+}
