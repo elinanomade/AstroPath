@@ -7,7 +7,11 @@ body {
   background-image: url("/media/2.png"); /* Add your background image URL here */
   background-size: cover; /* Make the background image cover the container */
   background-position: center; /* Center the background image */
+  display: flex; /* Use flexbox to center vertically and horizontally */
+  justify-content: center;
+  align-items: center;
 }
+
 .image-button {
   display: inline-block;
   position: relative;
@@ -19,8 +23,6 @@ body {
   width: 833px; /* Adjust the width as needed */
   height: auto;
   border: none;
-  vertical-align: middle;
-  position: center;
 }
 
 .image-button:hover {
