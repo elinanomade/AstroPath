@@ -1,0 +1,22 @@
+/* Set the width and height to create squares for each div class */
+.flexbox1,
+.flexbox2,
+.flexbox3,
+.flexbox4 {
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Width and height are set to the same value to create squares */
+  margin: 10px; /* Add spacing between squares if desired */
+}
+
+.flexbox1 {
+  background-color: aqua;
+}
+.flexbox2 {
+  background-color: #9f80fc;
+}
+.flexbox3 {
+  background-color: #fc80e1;
+}
+.flexbox4 {
+  background-color: #fcf280;
+}

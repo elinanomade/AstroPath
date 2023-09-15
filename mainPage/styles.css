@@ -28,13 +28,6 @@ header {
   z-index: 1;
 }
 
-/* SECTION ONE*/
-#section_1 {
-  height: 75vh; /* This section will take up the entire viewport height */
-  background: url("/media/2.png");
-  background-size: cover;
-  position: relative;
-}
 .navbar-wrapper_right {
   display: flex;
   justify-content: space-between;
@@ -59,7 +52,6 @@ header {
   align-items: center;
   gap: 30px;
 }
-
 .navbar-wrapper_left a img {
   width: 30px;
   height: 30px;
@@ -67,35 +59,87 @@ header {
   margin-top: 5px;
 }
 
+/* SECTION ONE*/
+#section_1 {
+  height: 75vh; /* This section will take up the entire viewport height */
+  background: url("/media/2.png");
+  background-size: cover;
+  position: relative;
+}
+
+/*LOGO*/
+.wrapper-logo {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.wrapper-logo {
+  width: auto; /* Adjust the width as needed */
+  height: auto;
+  border: none;
+}
+
+.wrapper-logo:hover {
+  transform: scale(1.1); /* Adjust the scaling factor as desired */
+}
+
 /* SECTION 2*/
 
 #section_2 {
-  height: 60vh; /* Set the section height to 50% of the viewport height */
+  height: 60vh;
   display: flex;
-  align-items: center; /* Vertically center the content */
+  align-items: center;
   background-color: #fac9e7;
   background-size: cover;
   position: relative;
 }
 
+.container_right img {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+.container_left p {
+  font-size: 18px; /* Change font size to 22px */
+  color: #000;
+  text-align: left;
+  line-height: 1.5;
+  height: 500px;
+  width: 500px;
+}
+.container_left {
+  background-color: #9f80fc;
+  width: 500px; /* Set width and height to create a square */
+  height: 500px; /* Set width and height to create a square */
+  padding: 20px;
+}
+
 .section-container {
   display: flex;
-  justify-content: space-between; /* Space between the two divs */
-  align-items: center;
-  width: 100%; /* Ensure it takes full width */
-  padding: 0 20px; /* Add some horizontal spacing */
+  justify-content: center; /* Center both elements horizontally */
+  align-items: center; /* Center both elements vertically */
+  width: 100%;
+  padding-left: 250px;
+  padding-right: 250px;
+  background-color: #daf395;
 }
 
 .justified-text {
-  flex: 1; /* Take up available space on the left */
+  flex: 1;
   text-align: justify;
-  font-size: 18px;
   color: #000;
-  padding: 10px; /* Adjust padding as needed */
+  padding: 10px;
 }
 
 .image-wrapper {
-  flex: 0; /* Maintain its width on the right */
+  flex: 0;
+  display: flex; /* Add display flex to put text and image side by side */
+  align-items: center; /* Center text and image vertically */
+  gap: 20px; /* Add some spacing between text and image */
 }
 
 .image-wrapper img {
@@ -113,12 +157,13 @@ header {
 }
 
 #section_4 {
-  height: 50vh; /* Set the section height to 50% of the viewport height */
+  height: 100vh; /* Set the section height to 50% of the viewport height */
   display: flex;
   justify-content: flex-start; /* Align content to the left */
   align-items: center; /* Vertically center the content */
   background-color: #dca819;
 }
+
 /* footer  */
 footer {
   display: flex;
@@ -145,4 +190,61 @@ footer {
 .footer-middle h3 {
   font-size: 28px;
   align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #9f80fc;
+  font-family: "Abel";
+  text-decoration: none;
+}
+
+/* Media Queries for Smaller Screens */
+@media screen and (max-width: 768px) {
+  /* Header Section */
+  header {
+    padding: 10px 5%;
+  }
+
+  .navbar-wrapper_right {
+    gap: 10px;
+  }
+
+  .navbar-wrapper_right a {
+    font-size: 16px;
+  }
+
+  .navbar-wrapper_left a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Section 2 */
+  #section_2 {
+    /* Adjust styles for smaller screens */
+  }
+
+  .container_right {
+    /* Adjust styles for smaller screens */
+  }
+
+  .container_left p {
+    font-size: 15px; /* Change font size to 22px */
+  }
+
+  /* Section 3 (Skills Container) */
+  #section_3 {
+    /* Adjust styles for smaller screens */
+  }
+
+  /* Footer */
+  footer {
+    /* Adjust styles for smaller screens */
+  }
 }
