@@ -1,22 +1,68 @@
-/* Set the width and height to create squares for each div class */
-.flexbox1,
-.flexbox2,
-.flexbox3,
-.flexbox4 {
-  width: 300px; /* Adjust the width as needed */
-  height: 300px; /* Width and height are set to the same value to create squares */
-  margin: 10px; /* Add spacing between squares if desired */
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
+body {
+  background-color: #80fc9b;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center the flex container horizontally */
+  align-items: center; /* Center the flex container vertically */
+}
+
+/* Container for the flexboxes */
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Arrange flex rows vertically */
+  /* justify-content: center; */
+}
+
+/* CSS to stack flexboxes with flexbox3 in front */
+/* CSS to stack flexboxes with flexbox3 in front */
+.section-item1 {
+  display: flex;
+  flex-direction: column; /* Stack flex items vertically */
+  justify-content: center; /* Center the flex items vertically within the container */
+  align-items: center; /* Center the flex items horizontally within the container */
+}
+
+.section-item2 {
+  display: flex;
+  flex-direction: column; /* Stack flex items vertically */
+  justify-content: flex-end; /* Center the flex items vertically within the container */
+  align-items: center; /* Center the flex items horizontally within the container */
+}
+
+/* Set the width and height to create squares for each div class */
+.flexbox1,
+.flexbox2 {
+}
+
+/* Set the order to change the position of flex items */
 .flexbox1 {
   background-color: aqua;
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Width and height are set to the same value to create squares */
+  margin: 5px; /* Add spacing between squares if desired */
 }
 .flexbox2 {
   background-color: #9f80fc;
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Width and height are set to the same value to create squares */
+  margin: 5px; /* Add spacing between squares if desired */
 }
 .flexbox3 {
   background-color: #fc80e1;
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Width and height are set to the same value to create squares */
+  margin: 10px; /* Add spacing between squares if desired */
 }
 .flexbox4 {
   background-color: #fcf280;
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Width and height are set to the same value to create squares */
+  margin: 10px; /* Add spacing between squares if desired */
 }
