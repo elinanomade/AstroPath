@@ -59,101 +59,40 @@ header {
   margin-top: 5px;
 }
 
-/* SECTION ONE*/
-#section_1 {
-  height: 75vh; /* This section will take up the entire viewport height */
-  background: url("/media/2.png");
-  background-size: cover;
-  position: relative;
-}
-
-/*LOGO*/
-.wrapper-logo {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-}
-
-.wrapper-logo {
-  width: auto; /* Adjust the width as needed */
-  height: auto;
-  border: none;
-}
-
-.wrapper-logo:hover {
-  transform: scale(1.1); /* Adjust the scaling factor as desired */
-}
-
-/* SECTION 2*/
-
-#section_2 {
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  background-color: #fac9e7;
-  background-size: cover;
-  position: relative;
-}
-
-.container_right img {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  width: 50%;
-}
-
-.container_left p {
-  font-size: 18px; /* Change font size to 22px */
-  color: #000;
-  text-align: left;
-  line-height: 1.5;
-  height: 500px;
-  width: 500px;
-}
-.container_left {
-  background-color: #9f80fc;
-  width: 500px; /* Set width and height to create a square */
-  height: 500px; /* Set width and height to create a square */
-  padding: 20px;
-}
-
-.section-container {
-  display: flex;
-  justify-content: center; /* Center both elements horizontally */
-  align-items: center; /* Center both elements vertically */
-  width: 100%;
-  padding-left: 250px;
-  padding-right: 250px;
-  background-color: #daf395;
-}
-
-.justified-text {
-  flex: 1;
-  text-align: justify;
-  color: #000;
-  padding: 10px;
-}
-
-.image-wrapper {
-  flex: 0;
-  display: flex; /* Add display flex to put text and image side by side */
-  align-items: center; /* Center text and image vertically */
-  gap: 20px; /* Add some spacing between text and image */
-}
-
-.image-wrapper img {
-  width: 250px;
-}
-
 /* Skils container */
 
 #section_3 {
-  height: 55vh;
+  height: 65vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background-color: #c594c0;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+}
+
+.transparent-button {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  margin-right: 18px;
+  border-radius: 45px;
+  border: 3px solid #000;
+  background: rgba(203, 121, 241, 0.9);
+}
+
+.transparent-button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+h1 {
+  font-size: 33px; /* You can adjust the font size as needed */
+  margin-bottom: 20px; /* Adds spacing between h1 and buttons */
 }
 
 #section_4 {

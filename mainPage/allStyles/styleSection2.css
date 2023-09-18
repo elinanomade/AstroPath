@@ -1,0 +1,62 @@
+*
+
+/* SECTION 2*/
+
+#section_2 {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  background-color: #fac9e7;
+  background-size: cover;
+  position: relative;
+}
+
+.container_right img {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+.container_left p {
+  font-size: 18px; /* Change font size to 22px */
+  color: #000;
+  text-align: left;
+  line-height: 1.5;
+  height: 500px;
+  width: 500px;
+}
+.container_left {
+  background-color: #9f80fc;
+  width: 500px; /* Set width and height to create a square */
+  height: 500px; /* Set width and height to create a square */
+  padding: 20px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center; /* Center both elements horizontally */
+  align-items: center; /* Center both elements vertically */
+  width: 100%;
+  padding-left: 250px;
+  padding-right: 250px;
+  background-color: #daf395;
+}
+
+.justified-text {
+  flex: 1;
+  text-align: justify;
+  color: #000;
+  padding: 10px;
+}
+
+.image-wrapper {
+  flex: 0;
+  display: flex; /* Add display flex to put text and image side by side */
+  align-items: center; /* Center text and image vertically */
+  gap: 20px; /* Add some spacing between text and image */
+}
+
+.image-wrapper img {
+  width: 250px;
+}

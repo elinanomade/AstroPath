@@ -1,0 +1,27 @@
+*
+
+/* SECTION ONE*/
+#section_1 {
+  height: 75vh; /* This section will take up the entire viewport height */
+  background: url("/media/2.png");
+  background-size: cover;
+  position: relative;
+}
+
+/*LOGO*/
+.wrapper-logo {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.wrapper-logo {
+  width: auto; /* Adjust the width as needed */
+  height: auto;
+  border: none;
+}
+
+.wrapper-logo:hover {
+  transform: scale(1.1); /* Adjust the scaling factor as desired */
+}
