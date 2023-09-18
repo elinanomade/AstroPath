@@ -83,7 +83,7 @@ a {
 }
 
 .dropdown-content a:hover {
-  background-color: rgba(201, 106, 236);
+  background-color: #f8d556;
 }
 
 .navbar-dropdown:hover .dropdown-content {
