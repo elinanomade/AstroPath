@@ -1,0 +1,76 @@
+*
+/* Skils container */
+
+#section_3 {
+  height: 80vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fec4f8;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.transparent-button {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  margin-right: 28px;
+  border-radius: 20px;
+  border: 3px solid #000;
+  overflow: hidden;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  line-height: 100px;
+  transition: transform 0.3s ease; /* Add a smooth transition for scaling */
+}
+
+.transparent-button:last-child {
+  margin-right: 0;
+}
+
+/* Define individual button colors and hover animation */
+.button1 {
+  background: rgba(203, 121, 241, 0.7);
+}
+.button1:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.button2 {
+  background: rgba(255, 153, 0, 0.7);
+}
+.button2:hover {
+  transform: scale(1.1);
+}
+
+.button3 {
+  background: rgba(102, 204, 204, 0.7);
+}
+.button3:hover {
+  transform: scale(1.1);
+}
+
+.button4 {
+  background: rgba(204, 153, 255, 0.7);
+}
+.button4:hover {
+  transform: scale(1.1);
+}
+
+.button5 {
+  background: rgba(255, 102, 102, 0.7);
+}
+.button5:hover {
+  transform: scale(1.1);
+}

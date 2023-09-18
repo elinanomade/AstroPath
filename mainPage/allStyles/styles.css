@@ -6,9 +6,7 @@
 }
 
 body {
-  background-color: #9f80fc;
-  font-family: "Abel";
-  text-decoration: none;
+  font-family: "Dosis", sans-serif;
 }
 
 section {
@@ -57,91 +55,6 @@ header {
   height: 30px;
   transition: all 0.5s ease-in-out;
   margin-top: 5px;
-}
-
-/* Skils container */
-
-#section_3 {
-  height: 65vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #c594c0;
-  align-items: center;
-  margin: 0;
-  flex-direction: column;
-}
-
-.button-container {
-  display: flex;
-}
-
-.transparent-button {
-  width: 200px;
-  height: 200px;
-  background-color: transparent;
-  margin-right: 18px;
-  border-radius: 45px;
-  border: 3px solid #000;
-  background: rgba(203, 121, 241, 0.9);
-}
-
-.transparent-button:last-child {
-  margin-right: 0; /* Remove margin from the last button */
-}
-
-h1 {
-  font-size: 33px; /* You can adjust the font size as needed */
-  margin-bottom: 20px; /* Adds spacing between h1 and buttons */
-}
-
-#section_4 {
-  height: 100vh; /* Set the section height to 50% of the viewport height */
-  display: flex;
-  justify-content: flex-start; /* Align content to the left */
-  align-items: center; /* Vertically center the content */
-  background-color: #dca819;
-}
-
-/* footer  */
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 10%;
-  background-color: #f6c026;
-}
-.footer-wrapper_right img {
-  width: 150px;
-  height: 40px;
-  align-items: center;
-  /* margin-top: 5px; */
-}
-.footer-middle {
-  align-items: center;
-}
-
-.footer-middle p {
-  font-size: 15px;
-  align-items: center;
-}
-
-.footer-middle h3 {
-  font-size: 28px;
-  align-items: center;
-}
-
-* {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  background-color: #9f80fc;
-  font-family: "Abel";
-  text-decoration: none;
 }
 
 /* Media Queries for Smaller Screens */

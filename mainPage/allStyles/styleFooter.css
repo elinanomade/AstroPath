@@ -1,0 +1,29 @@
+*
+
+/* footer  */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: #f6c026;
+}
+.footer-wrapper_right img {
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  /* margin-top: 5px; */
+}
+.footer-middle {
+  align-items: center;
+}
+
+.footer-middle p {
+  font-size: 15px;
+  align-items: center;
+}
+
+.footer-middle h3 {
+  font-size: 28px;
+  align-items: center;
+}
