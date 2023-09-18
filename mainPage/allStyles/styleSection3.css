@@ -7,26 +7,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("/media/2.png");
   background-color: #fec4f8;
   align-items: center;
   margin: 0;
   flex-direction: column;
+  font-family: "Dosis", sans-serif;
 }
 
 h1 {
   font-size: 33px;
   margin-bottom: 20px;
+  font-family: "Dosis", sans-serif;
 }
 
 .button-container {
   display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
 }
 
 .transparent-button {
   width: 200px;
   height: 200px;
   background-color: transparent;
-  margin-right: 28px;
   border-radius: 20px;
   border: 3px solid #000;
   overflow: hidden;
@@ -42,20 +46,49 @@ h1 {
 /* Define individual button colors and hover animation */
 .button1 {
   background: rgba(203, 121, 241, 0.7);
+  background-image: url("/media/buttonimage.png");
+  /* You can also use other image formats like PNG, GIF, etc. */
+  background-size: cover; /* This property scales the image to cover the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  font-family: "Dosis", sans-serif;
+  font-size: 31px;
+  text-shadow: 2px 2px 4px #000;
+  color: #fcf5fb;
 }
+
 .button1:hover {
   transform: scale(1.1); /* Scale up on hover */
 }
 
 .button2 {
   background: rgba(255, 153, 0, 0.7);
+  background-image: url("/media/buttonimage.png");
+  /* You can also use other image formats like PNG, GIF, etc. */
+  background-size: cover; /* This property scales the image to cover the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  font-family: "Dosis", sans-serif;
+  font-size: 31px;
+  text-shadow: 2px 2px 4px #000;
+  color: #fcf5fb;
 }
+
 .button2:hover {
   transform: scale(1.1);
 }
 
 .button3 {
   background: rgba(102, 204, 204, 0.7);
+  background-image: url("/media/buttonimage.png");
+  /* You can also use other image formats like PNG, GIF, etc. */
+  background-size: cover; /* This property scales the image to cover the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  font-family: "Dosis", sans-serif;
+  font-size: 31px;
+  text-shadow: 2px 2px 4px #000;
+  color: #fcf5fb;
 }
 .button3:hover {
   transform: scale(1.1);
@@ -63,6 +96,15 @@ h1 {
 
 .button4 {
   background: rgba(204, 153, 255, 0.7);
+  background-image: url("/media/buttonimage.png");
+  /* You can also use other image formats like PNG, GIF, etc. */
+  background-size: cover; /* This property scales the image to cover the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  font-family: "Dosis", sans-serif;
+  font-size: 31px;
+  text-shadow: 2px 2px 4px #000;
+  color: #fcf5fb;
 }
 .button4:hover {
   transform: scale(1.1);
@@ -70,6 +112,15 @@ h1 {
 
 .button5 {
   background: rgba(255, 102, 102, 0.7);
+  background-image: url("/media/buttonimage.png");
+  /* You can also use other image formats like PNG, GIF, etc. */
+  background-size: cover; /* This property scales the image to cover the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  font-family: "Dosis", sans-serif;
+  font-size: 31px;
+  text-shadow: 2px 2px 4px #000;
+  color: #fcf5fb;
 }
 .button5:hover {
   transform: scale(1.1);
