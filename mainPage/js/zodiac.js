@@ -7,45 +7,37 @@ var zodiac = [
     zodiacName: "aries",
     birthdayRange: "March 21 - April 19",
     attributes:
-      "Aries are fire signs and those born under this element are regarded in astrology as adventurous, active and outgoing. It won't matter where you go or how remote or unusual it is - from the Outback to the Antarctic - you can be sure that an Aries has been there before you (or at the very least you will meet one along the way!) Aries is a uniquely naive sign. Although they are independent, outgoing and assertive they are also surprisingly trusting, often innocently walking into the lion's den at times. No matter what upheaval, challenge or triumph they confront - an Aries has a wonderful ability to bounce back. Their faith in life and the future remains untouched by hardship. Their gift is that they are always children at heart and the world is always a magical place for them. Many famous sports people are born under this sign. Aries is regarded as the most physical sign and because of its Mar's rulership; it is also one of the most highly charged masculine energy signs in astrology. No wonder women born under Aries are forceful, dynamic and aggressive, and as a result these Aries women frequently find themselves with dilemmas surrounding their romantic relationships. For them, a man has to be a 'real man' to deal with an Aries woman, otherwise she intimidates him. And conversely for the Aries male, a woman has to be a real woman to deal with him, because he is looking for many balancing component traits (his true feminine side) in his partner. She has to run the gamut in his support system, from the Aries man's best friend, true companion, through to his muse, and yet she must never ever answer him back!",
+      "Aries, you are a crazy one! You feel at and shine your best if you are active, always a busy person. You are energetic, you will jump into things without thinking, you are the optimist, but on your worst you can be an aggressive, not so diplomatic. And one of your SUN CODE activities is: Listen a very heavy music.",
   },
   {
     zodiacName: "cancer",
     birthdayRange: "June 21 - July 22",
     attributes:
-      "Those born under the sign of Cancer, ruled by the mysterious Moon, are one of the zodiac's enigmas. It is fair to say that most Cancers are a bundle of contradictions. Compassionate and caring with friends, family and lovers, yet they can cut to the bone with their jealous remarks and ever-changing moods. Endearingly eccentric on one hand, and on the other, insecure about how others see them. Like their astrological symbol - the Crab - Cancers can appear hard and insensitive on the outside. However, for those of us who know and love a Moon Child, we understand that deep below lies a softness and sensitivity that makes them so very special.",
-    picture:
-      "http://courtneysgamecoderocks.com/ZodiacProject/img/cancerSign.png",
+      "Many see you as the softest, but you are actually a warrior. You are kind and gentle at your best, but at your worst you can be a very nasty human who don't forget small things. What is one SUN CODE activity for you? Take care of plants - be a plant parent.",
   },
   {
     zodiacName: "taurus",
     birthdayRange: "April 20 - May 20",
     attributes:
-      "Underneath their cool, calm and collected exterior, Taureans differ greatly from all the other signs of the zodiac. Taureans manage to discreetly stay apart from the crowd, even though they have a well earned reputation for being socialisers. They will let others get close, but only so close as they want them. Some claim that trying to get your point across to a Taurean, should they not want to hear you, is rather similar to talking to the trees, they simply won't budge. And, there is no such thing as an open-book Taurean. Their feelings, fears and desires often run far deeper than anyone around them would guess. Like the butterfly that chooses to remain hidden in its cocoon until it is ready and prepared to emerge, so the true Taurean spirit remains hidden behind a veneer of day-to-day activities. That's why Taureans are sometimes regarded as snobby, withdrawn, boring, or even sulky.",
+      "Oh taurus, you hide so well behind that tough guy image! Financially you are the smartest from all, but at your low energy you and money are the enemies. What is one of your SUN CODE activities? Do some crafts!",
   },
   {
     zodiacName: "gemini",
     birthdayRange: "May 21 - June 20",
     attributes:
-      "n ancient Greek mythology, Gemini's ruler - Mercury, was the light-footed messenger of the gods who darted back and forth across the heavens delivering news - which might explain why those born under the sign of the 'Twins' are always on the move; thirsty for knowledge and new experiences. Terminally curious and sometimes even mischievous, Geminis are multi-faceted souls who enjoy knowing a little bit of everything but generally not too much about one particular subject. It's just that variety is the spice of their lives!",
-    picture:
-      "http://courtneysgamecoderocks.com/ZodiacProject/img/geminiSign.png",
+      "Dearest Gemini, wait, don't run away yet! Focus here! You are the communicator of the all signs, but at your lowest you can be shallow. What is one of your SUN CODE activities? Go cycle or get the drivers licence!",
   },
   {
     zodiacName: "capricorn",
     birthdayRange: "December 22 - January 19",
     attributes:
-      "The sign of the high roller, Capricorn is regarded as the zodiac top, but also quiet, life and business achievers. But, there are two very different types of Capricorns. The first is represented by the mountain goat, always climbing higher and higher; never content until reaching the top. The second is the garden goat, with little adventurous spirit or ambition-happy to remain within a small domain, refusing to budge unless it is pushed. Either type of Capricorn, however, is patient and persevering. They reach their goals because they know the longest journey commences with a single step and that the first step is always the most difficult.",
-    picture:
-      "http://courtneysgamecoderocks.com/ZodiacProject/img/capricornSign.png",
+      "You are the climber of mountains and career! You shine at your best when you are disciplined, strict to yourself and have goals, but at your lowest you trying to reach the sky, makes you to become a workaholic. What is one of your SUN CODE activities? Go hiking!",
   },
   {
     zodiacName: "sagittarius",
     birthdayRange: "November 22 - December 21",
     attributes:
-      "Ruled by the benefic planet Jupiter, Sagittarians possess a natural exuberance, sense of adventure and love of life that makes them one of the most optimistic zodiac signs of all. Like their astrological symbol - the Archer - Sagittarians are renowned for aiming their sights towards whatever it is they find alluring - a love partner, dream job, vacation - and making it their own. They believe that anything is possible - and because of this belief system, Sagittarians are adept at seeking out their very own pot of gold at the end of the rainbow.",
-    picture:
-      "http://courtneysgamecoderocks.com/ZodiacProject/img/saggitariusSign.png",
+      "Sagittarius, world without you would be boring. You know how to travel and explore. ",
   },
   {
     zodiacName: "pisces",
