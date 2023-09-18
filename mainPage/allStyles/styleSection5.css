@@ -1,0 +1,41 @@
+* #section_5 {
+  background-color: #782997;
+  height: 100vh;
+}
+
+.main-container {
+  width: 50%;
+  margin: auto;
+}
+
+.formS {
+  background-color: #782997;
+  width: 50%;
+  margin: auto;
+}
+.formS h1,
+h2 {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+button {
+  margin: 10px auto;
+  background-color: #33bbff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5vh; /* Adjust the font size as needed */
+  display: inline-block;
+  border: none;
+  color: white;
+  padding: 1vh 2vh; /* Adjust the padding as needed */
+  width: 50%;
+  display: block;
+  border-radius: 20px;
+}
+
+.form-input {
+  text-align: center;
+  font-size: 2vh; /* Adjust the font size as needed */
+  width: 100%;
+}

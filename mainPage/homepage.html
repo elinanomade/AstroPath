@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="/mainPage/allStyles/styleSection2.css" />
     <link rel="stylesheet" href="/mainPage/allStyles/styleSection3.css" />
         <link rel="stylesheet" href="/mainPage/allStyles/styleSection4.css" />
+        <link rel="stylesheet" href="/mainPage/allStyles/styleSection5.css" />
             <link rel="stylesheet" href="/mainPage/allStyles/styleFooter.css" />
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap" rel="stylesheet">
    <style>
   @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 </style>
@@ -43,12 +45,20 @@
           <img src="/media/🦆 icon _at_.png" alt="My_email" />
         </a>
       </div>
-      <div class="navbar-wrapper_right">
+  <div class="navbar-wrapper">
+  <div class="navbar">
+    <div class="navbar-dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
         <a href="#section_1">Home</a>
         <a href="#section_2">About</a>
         <a href="#section_3">Services</a>
         <a href="#section_4">Follow</a>
       </div>
+    </div>
+  </div>
+</div>
+
     </header>
     <!-- main banner -->
     <section id="section_1">
@@ -59,10 +69,18 @@
 
     <!-- About -->
 <section id="section_2">
-      <div class="section-container">
-        <div class="section-item1">
-        <div class="container_left">
-           <p>Allow me to introduce myself as <strong>Ilze Krasta Caporazo</strong>,
+        <div class="container">
+      <div class="image-box">
+        <img
+          src="/media/PORTRAIT1.png"
+          alt="Your Image"
+          class="profile-image"
+        />
+      </div>
+      <div class="text-box">
+        <div class="text-content">
+          <h1>About Me</h1>
+              <p>Allow me to introduce myself as <strong><span style="font-family: 'Loved by the King', cursive;">Ilze Krasta Caporazo</span> </strong>,
         your guide on a profound journey to unveil the intricate tapestry
         of your life's purpose and the unique role your soul has chosen to
         embody in this existence. In essence, we shall explore the very
@@ -81,19 +99,16 @@
         </p></div></div>
 
         <!-- </h2> -->
-                <div class="section-item2">
-        <div class="container_right">
-              <div class="image-wrapper">
-                <img src="/media/PORTRAIT1.png" alt="Portrait of Ilze" />
-    </div></div>
         </div>
       </div>
+    </div>
     </section>
-
 
 
     <!-- Skills -->
     <section id="section_3">
+   
+
       <h1>My consultant Services</h1>
   <div class="button-container">
 <a href="/pages/page1.html">
@@ -124,20 +139,53 @@
         <img>
     </div></button></a>
     </div>
+   
     </section>
 
 
     <!-- Service -->
     <section id="section_4">
      <!-- <script src="/instafeed.js-master/index.html"></script> -->
-<h1>My Instagram Feed</h1>
-    <div id="instafeed">
+
+    <div id="instafeed"><h1>My Instagram Feed</h1>
     <!-- Paste the Instagram embed code here -->
     <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/tava.dveselesformula/" data-instgrm-version="13"></blockquote>
     <script async src="//www.instagram.com/embed.js"></script>
 </div>
 
+ 
+   
+ </section>
+    <!--Game-->
+    <section id="section_5">
+      
+		<div class="main-container">
+			<form>
+			<div class="formS">
+				<h1>What's Your Sun sign?</h1>
+			</div>
+			<div class="formS">
+				<input id="your-sign" class="form-input" placeholder="ex: Taurus"></input>
+			</div>
+			<div class="formS">
+				<button type="button" onclick="astSign()">Click me</button>
+			</div>
+			</form>
+
+			<div>
+				<h1 id="yourSign"></h1>
+				<h2 id="birthdayRange"></h2>
+				<h2 id="attributes"></h2>
+			</div>
+		</div>
+
+    
+
+	<script src="/mainPage/js/zodiac.js"></script>
     </section>
+
+
+
     <!--Footer-->
     <footer>
       <div class="footer-wrapper_left">

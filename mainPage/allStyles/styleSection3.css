@@ -7,8 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/media/2.png");
-  background-color: #fec4f8;
+  background: rgb(250, 201, 231);
   align-items: center;
   margin: 0;
   flex-direction: column;
@@ -19,6 +18,10 @@ h1 {
   font-size: 33px;
   margin-bottom: 20px;
   font-family: "Dosis", sans-serif;
+  letter-spacing: 5px;
+  font-size: 38px;
+  text-shadow: 2px 2px 4px #000;
+  color: #ffffff;
 }
 
 .button-container {
@@ -40,12 +43,12 @@ h1 {
 }
 
 .transparent-button:last-child {
-  margin-right: 0;
+  margin-right: 19px;
 }
 
 /* Define individual button colors and hover animation */
 .button1 {
-  background: rgba(203, 121, 241, 0.7);
+  background: rgba(109, 141, 248, 0.7);
   background-image: url("/media/buttonimage.png");
   /* You can also use other image formats like PNG, GIF, etc. */
   background-size: cover; /* This property scales the image to cover the entire element */
@@ -54,7 +57,7 @@ h1 {
   font-family: "Dosis", sans-serif;
   font-size: 31px;
   text-shadow: 2px 2px 4px #000;
-  color: #fcf5fb;
+  color: #f5f6fc;
 }
 
 .button1:hover {
@@ -62,7 +65,7 @@ h1 {
 }
 
 .button2 {
-  background: rgba(255, 153, 0, 0.7);
+  background: rgba(201, 106, 236, 0.7);
   background-image: url("/media/buttonimage.png");
   /* You can also use other image formats like PNG, GIF, etc. */
   background-size: cover; /* This property scales the image to cover the entire element */

@@ -3,5 +3,10 @@
   display: flex;
   justify-content: flex-start; /* Align content to the left */
   align-items: center; /* Vertically center the content */
-  background-color: #dca819;
+  background: rgb(250, 201, 231);
+  background: linear-gradient(
+    180deg,
+    rgba(250, 201, 231, 1) 50%,
+    rgba(120, 41, 151, 1) 100%
+  );
 }
