@@ -33,28 +33,3 @@ footer {
   font-size: 28px;
   margin: 0 10px; /* Add some spacing between items */
 }
-
-/* Media query for smaller screens (e.g., screens with a max-width of 768px) */
-@media screen and (max-width: 768px) {
-  footer {
-    flex-direction: column; /* Stack items in a column for smaller screens */
-    text-align: center; /* Center-align text for smaller screens */
-  }
-
-  .footer-wrapper_right img {
-    max-width: 20px; /* Reduce the size of images for smaller screens */
-    max-height: 20px; /* Adjust the maximum height as needed */
-  }
-
-  .footer-middle {
-    flex-direction: column; /* Stack items in a column for smaller screens */
-  }
-
-  .footer-middle p {
-    font-size: 12px; /* Reduce font size for smaller screens */
-  }
-
-  .footer-middle h3 {
-    font-size: 20px; /* Reduce font size for smaller screens */
-  }
-}

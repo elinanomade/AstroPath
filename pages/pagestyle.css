@@ -91,7 +91,7 @@ a {
 }
 /* SECTION ONE */
 #section_1 {
-  height: 75vh; /* This section will take up the entire viewport height */
+  height: 80vh; /* This section will take up the entire viewport height */
   background: url("/media/2.png");
   background-size: cover;
   position: relative;
@@ -99,15 +99,80 @@ a {
 }
 /* SECTION 2*/
 
+/* Shared styles for section_2 and karmaItem */
+#section_2,
+.karmaItem {
+  font-family: "Dosis", sans-serif;
+}
+
 #section_2 {
   height: 80vh;
-  background-color: #f2f2f2;
-  display: flex;
-  align-items: center;
   background: #fac9e7;
-  flex-direction: row;
-  position: relative;
-  font-family: "Dosis", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  gap: 22px 25px;
+  grid-auto-flow: row dense;
+  grid-template-areas:
+    "Title item2 item3"
+    "item4 item5 item6";
+  width: 800px;
+  height: 500px;
+}
+
+/* .karmaItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-color: #ff5733;
+} */
+
+#section-title {
+  margin-bottom: 20px;
+}
+
+/* GRID styles */
+.grid {
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: #ff5733; /* Reddish color */
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: #33ff57; /* Greenish color */
+}
+
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: #5733ff; /* Bluish color */
+}
+
+.div4 {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: #ff3399; /* Pinkish color */
+}
+
+.div5 {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #ffcc33; /* Yellowish color */
+}
+
+.div6 {
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: #33ccff; /* Light Blue color */
 }
 
 /* SECTION 3*/
