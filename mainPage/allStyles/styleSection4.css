@@ -1,12 +1,76 @@
-* #section_4 {
-  height: 100vh; /* Set the section height to 50% of the viewport height */
+#section_4 {
+  height: 100vh;
   display: flex;
-  justify-content: flex-start; /* Align content to the left */
-  align-items: center; /* Vertically center the content */
+  flex-direction: column; /* Arrange content in a column */
+  justify-content: center;
+  align-items: center;
   background: rgb(250, 201, 231);
   background: linear-gradient(
     180deg,
     rgba(250, 201, 231, 1) 50%,
     rgba(120, 41, 151, 1) 100%
   );
+  font-family: "Dosis", sans-serif;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center; /* Center the testimonials horizontally */
+  align-items: center; /* Center the testimonials vertically */
+  margin: 20px 0;
+}
+
+.testimonial {
+  background: rgba(201, 106, 236);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 0 10px; /* Adjust margin to separate testimonials */
+  opacity: 0;
+  transition: opacity 0.5s;
+  font-family: "Dosis", sans-serif;
+  text-shadow: 2px 2px 4px #000;
+  color: #fcf5fb;
+  border-radius: 20px;
+  /* border: 1px solid #000; */
+  overflow: hidden;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.testimonial img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin: 15px 0;
+}
+
+/* .testimonial h3 {
+  font-weight: bold;
+} */
+
+.test-btn-container {
+  display: flex;
+  flex-direction: column; /* Arrange buttons in a column */
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+  margin-top: 20px; /* Add some margin between testimonials and buttons */
+}
+
+.btn-test {
+  background-color: #c81f92;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-test:hover {
+  background-color: #f4e031;
 }

@@ -19,29 +19,25 @@
   }
 }
 
-/* Media query for smaller screens (e.g., iPhone size) */
+/* Media query for smaller screens (e.g., max-width: 768px) */
 @media screen and (max-width: 768px) {
-  /* Adjust styles for smaller screens */
-  #section_3 {
-    height: auto; /* Remove fixed height */
-    padding: 20px; /* Add some padding for better spacing */
+  /* Hide the background image and logo */
+  #section_1 {
+    background: none;
+  }
+  .wrapper-logo {
+    display: none;
   }
 
-  h1 {
-    font-size: 24px; /* Reduce font size for smaller screens */
+  /* Show a new photo (adjust the URL as needed) */
+  #section_1::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("/media/smallscreenimage.png") no-repeat center center;
+    background-size: cover;
   }
-
-  .button-container {
-    flex-direction: column; /* Stack buttons vertically on smaller screens */
-  }
-
-  .transparent-button {
-    width: 150px; /* Decrease button size for smaller screens */
-    height: 150px;
-    font-size: 18px; /* Decrease font size for button content */
-  }
-
-  /* Add your other responsive styles here */
 }
 
 @media screen and (max-width: 768px) {
@@ -68,7 +64,7 @@
 
   .profile-image {
     width: 100%; /* Make the image full width */
-    max-width: 400px; /* Limit the maximum width */
+    max-width: 300px; /* Limit the maximum width */
     height: auto; /* Automatically adjust the height */
   }
 
@@ -83,4 +79,29 @@
   .text-content p {
     font-size: 12px; /* Reduce font size for smaller screens */
   }
+}
+
+/* Media query for smaller screens (e.g., iPhone size) */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  #section_3 {
+    height: auto; /* Remove fixed height */
+    padding: 20px; /* Add some padding for better spacing */
+  }
+
+  h1 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .button-container {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+  }
+
+  .transparent-button {
+    width: 150px; /* Decrease button size for smaller screens */
+    height: 150px;
+    font-size: 18px; /* Decrease font size for button content */
+  }
+
+  /* Add your other responsive styles here */
 }

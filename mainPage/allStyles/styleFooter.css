@@ -1,6 +1,4 @@
-*
-
-/* footer  */
+/* Original styles for larger screens */
 footer {
   display: flex;
   justify-content: space-between;
@@ -9,14 +7,15 @@ footer {
   background-color: #f395d9;
   font-family: "Dosis", sans-serif;
 }
+
 .footer-wrapper_right img {
   max-width: 30px;
-  align-items: center;
-  /* margin-top: 5px; */
+  max-height: 30px; /* Adjust the maximum height as needed */
 }
+
 .footer-middle {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Display items in a row for larger screens */
   align-items: center;
   text-align: center;
 }
@@ -27,10 +26,35 @@ footer {
 
 .footer-middle p {
   font-size: 15px;
-  align-items: center;
+  margin: 0 10px; /* Add some spacing between items */
 }
 
 .footer-middle h3 {
   font-size: 28px;
-  align-items: center;
+  margin: 0 10px; /* Add some spacing between items */
+}
+
+/* Media query for smaller screens (e.g., screens with a max-width of 768px) */
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column; /* Stack items in a column for smaller screens */
+    text-align: center; /* Center-align text for smaller screens */
+  }
+
+  .footer-wrapper_right img {
+    max-width: 20px; /* Reduce the size of images for smaller screens */
+    max-height: 20px; /* Adjust the maximum height as needed */
+  }
+
+  .footer-middle {
+    flex-direction: column; /* Stack items in a column for smaller screens */
+  }
+
+  .footer-middle p {
+    font-size: 12px; /* Reduce font size for smaller screens */
+  }
+
+  .footer-middle h3 {
+    font-size: 20px; /* Reduce font size for smaller screens */
+  }
 }

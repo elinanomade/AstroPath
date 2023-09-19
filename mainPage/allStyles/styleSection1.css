@@ -24,24 +24,3 @@
 .wrapper-logo:hover {
   transform: scale(1.1); /* Adjust the scaling factor as desired */
 }
-
-/* Media query for smaller screens (e.g., max-width: 768px) */
-@media screen and (max-width: 768px) {
-  /* Hide the background image and logo */
-  #section_1 {
-    background: none;
-  }
-  .wrapper-logo {
-    display: none;
-  }
-
-  /* Show a new photo (adjust the URL as needed) */
-  #section_1::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: url("/media/smallscreenimage.png") no-repeat center center;
-    background-size: cover;
-  }
-}
