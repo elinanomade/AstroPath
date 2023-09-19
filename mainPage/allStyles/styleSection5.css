@@ -1,4 +1,4 @@
-* #section_5 {
+#section_5 {
   background-color: #782997;
   height: 100vh;
 }
@@ -7,6 +7,7 @@
   width: 50%;
   margin: auto;
   color: white;
+  text-align: center;
 }
 
 .formS {
@@ -27,17 +28,18 @@
   text-align: center;
   color: white;
 }
-button {
+
+button[type="buttonjs"] {
   margin: 10px auto;
   background-color: #f8d556;
   font-weight: bold;
   text-align: center;
-  font-size: 2.5vh; /* Adjust the font size as needed */
+  font-size: 2.5vh;
   display: inline-block;
   border: none;
   color: white;
   font-family: "Dosis", sans-serif;
-  padding: 1vh 2vh; /* Adjust the padding as needed */
+  padding: 1vh 2vh;
   width: 50%;
   display: block;
   border-radius: 20px;
@@ -45,6 +47,6 @@ button {
 
 .form-input {
   text-align: center;
-  font-size: 2vh; /* Adjust the font size as needed */
+  font-size: 2vh;
   width: 100%;
 }

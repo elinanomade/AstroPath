@@ -1,5 +1,5 @@
 #section_4 {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column; /* Arrange content in a column */
   justify-content: center;
@@ -54,14 +54,13 @@
 
 .test-btn-container {
   display: flex;
-  flex-direction: column; /* Arrange buttons in a column */
   justify-content: center; /* Center the buttons horizontally */
   align-items: center; /* Center the buttons vertically */
   margin-top: 20px; /* Add some margin between testimonials and buttons */
 }
 
 .btn-test {
-  background-color: #c81f92;
+  background-color: #e449d0;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -69,8 +68,34 @@
   margin: 10px;
   border-radius: 5px;
   font-size: 16px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
 }
 
 .btn-test:hover {
-  background-color: #f4e031;
+  background-color: #f8d556;
+}
+
+@media screen and (max-width: 768px) {
+  #section_4 {
+    height: auto; /* Remove fixed height */
+    /* padding: 20px; Add some padding for better spacing */
+  }
+
+  .testimonial {
+    max-width: 200px;
+  }
+
+  p {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+
+  .testimonial-container {
+    align-items: center;
+    margin-bottom: 19px;
+  }
+  .test-btn-container {
+    margin-top: 5px; /* Adjust margin to 5px for smaller screens */
+  }
 }

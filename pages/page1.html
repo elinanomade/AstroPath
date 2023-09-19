@@ -4,207 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/pages/pagestyle.css" />
-    <title>Document</title>
+           <link rel="stylesheet" href="/mainPage/allStyles/mediaScreen.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap" rel="stylesheet">
+   <style>
+  @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+</style>
+    <title>Astro Path by Ilze Krasta Caporazo</title>
   </head>
+
   <body>
-    main div(id="instagram-feed" class="carousel") p.text-link:
-    a(href="instagram.com/tavadveseles.formula/" target="_blank")
-    instagram.com/tavadveseles.formula/
+    <!-- Navbar -->
+    <header>
+  <div class="navbar-wrapper">
+  <div class="navbar">
+    <div class="navbar-dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="#section_1">Home</a>
+        <a href="#section_2">About</a>
+        <a href="#section_3">Services</a>
+        <a href="#section_4">Follow</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <style>
-      @import url(https://fonts.googleapis.com/css?family=Dosis:600);
-      $fontMain: "Dosis", sans-serif;
-      $itemPadding: 4px;
-      $transDuration: 0.8s;
-      $transTimeFunc: cubic-bezier(0, 1, 0.86, 1);
+    </header>
+    <!-- main banner -->
+    <section id="section_1">
+              <div class="wrapper-logo">
+      <img src="/media/quote.png" alt="logo"/>
+          </div>
+</section>
 
-      * {
-        box-sizing: border-box;
-      }
+    <!-- About -->
+<section id="section_2">
+    </section>
 
-      body {
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
-        font-family: $fontMain;
-        background-color: black;
-        color: white;
-      }
 
-      main {
-        display: flex;
-        align-items: center;
-        height: 100vh;
-      }
+    <!-- Skills -->
+    <section id="section_3">
+    </section>
 
-      .text-link {
-        position: fixed;
-        bottom: 12px;
-        right: 12px;
-        font-size: 12px;
-        a {
-          color: rgba(white, 0.3);
-          text-decoration: none;
-          &:hover {
-            color: white;
-            text-decoration: underline;
-          }
-        }
-      }
 
-      .carousel {
-        margin: 0 auto;
-        width: 100%;
-      }
+    <!-- Service -->
+    <section id="section_4">
+</section>
 
-      .slick-list {
-        overflow: visible;
-        padding: 0 $itemPadding;
-      }
+<!--Game-->
+    <section id="section_5">
+    </section>
 
-      .slick-track {
-        display: flex;
-        align-items: center;
-        transform: translate3d(0, 0, 0);
-      }
 
-      .slick-prev,
-      .slick-next {
-        position: fixed;
-        bottom: 12px;
-        padding: 4px 12px;
-        font-family: $fontMain;
-        color: rgba(white, 0.5);
-        background: rgba(white, 0.2);
-        border: none;
-        text-transform: uppercase;
-        letter-spacing: 0.06em;
-        border-radius: 2px;
-        outline: none;
-        cursor: pointer;
-        z-index: 999;
-        &:active {
-          transform: translateY(1px);
-        }
-      }
+    <!--Footer-->
+    <footer>
+      <div class="footer-wrapper_left">
+        <p>
+          Brazil and Latvia
+          <a href="https://www.instagram.com/tava.dveselesformula/">
+  <p>@tava.dveselesformula</p>
+</a>
 
-      .slick-prev {
-        left: 12px;
-      }
+        </p>
+        
+      </div>
+ <div class="footer-middle">
+  <h3>become author of your own life</h3>
+  </a>
+  <img src="/media/planets.png" alt="Planets" class="footer-image" />
+</div>
 
-      .slick-next {
-        left: 90px;
-      }
-
-      .item {
-        position: relative;
-        margin: $itemPadding;
-        opacity: 0.3;
-        transform: translate3d(0, 0, 0);
-        transition: opacity $transDuration * 2 $transTimeFunc,
-          transform $transDuration $transTimeFunc;
-        outline: none;
-        overflow: hidden;
-        z-index: -1;
-        img {
-          width: 100%;
-          filter: blur(6px);
-          transform: rotate(0) translate3d(0, 0, 0);
-          transition: filter $transDuration * 2 $transTimeFunc;
-        }
-        &.slick-animate {
-          opacity: 1;
-          z-index: 99;
-          transition: filter $transDuration * 2 $transTimeFunc,
-            opacity $transDuration/2 $transTimeFunc,
-            transform $transDuration/2 $transTimeFunc;
-          @media (min-width: 480px) {
-            transform: translate3d(0, 0, 0) scale(3);
-          }
-          img {
-            filter: blur(0);
-          }
-        }
-      }
-    </style>
+<div class="footer-wrapper_right">
+ 
+        <a href="mailto:ilzekra@gmail.com ">
+          <!-- added 'mailto:' before email ID -->
+          <img src="/media/🦆 icon _at_.png" alt="My_email" />
+        </a>
+      </div>
+      </div>
+    </footer>
+    <script src="/mainPage/main.js"></script>
+    <script src="/mainPage/js/testimonial.js"></script>
+       <script src="/mainPage/js/zodiac.js"></script>
   </body>
-
-  <script>
-        // Get Photos from Instagram using JavaScript API: https://rudrastyh.com/javascript/get-photos-from-instagram.html
-
-        // Instagram feed
-    $instagram = new mishaInstagram();
-
-    $user_photos = $instagram->serve_user( 'tavasdveseles.formula, 10 );
-    print_r( $user_photos['media'] );
-
-
-        var token = TOKEN,
-          userid = 50002183,
-          num_photos = 24,
-          slickAnimClass = "slick-animate",
-          $carousel = $(".carousel"),
-          $blockFeed = $("#instagram-feed"),
-          carouselSettings,
-          item,
-          image,
-          imgSource,
-          imgAlt;
-
-        $carousel.hide();
-
-        // Carousel created with slick.js
-        carouselSettings = {
-          arrows: true,
-          autoplay: true,
-          autoplaySpeed: 3000,
-          centerMode: true,
-          infinite: true,
-          pauseOnHover: false,
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          speed: 800,
-          responsive: [
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-              },
-            },
-          ],
-        };
-
-        $.ajax({
-          url: "https://api.instagram.com/v1/users/" + userid + "/media/recent",
-          dataType: "jsonp",
-          type: "GET",
-          data: {
-            access_token: token,
-            count: num_photos,
-          },
-          success: function (data) {
-            for (item in data.data) {
-              imgSource = data.data[item].images.standard_resolution.url;
-              imgAlt = "";
-              image = '<img src="' + imgSource + '" />';
-              item = '<div class="item">' + image + "</div>";
-              $blockFeed.append(item);
-            }
-            // Create carousel
-            $carousel.slick(carouselSettings).fadeIn(800);
-          },
-        });
-
-        // Carousel events to fix jump when looped
-        $carousel
-          .on("init", function () {
-            $(".slick-current").addClass(slickAnimClass);
-          })
-          .on("beforeChange", function () {
-            $(".item").removeClass(slickAnimClass);
-          })
-          .on("afterChange", function () {
-            $(".slick-current").addClass(slickAnimClass);
-          });
-  </script>
 </html>
