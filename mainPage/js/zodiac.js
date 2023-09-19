@@ -13,7 +13,7 @@ var zodiac = [
     zodiacName: "cancer",
     birthdayRange: "June 21 - July 22",
     attributes:
-      "Many see you as the softest, but you are actually a warrior. You are kind and gentle at your best, but at your worst you can be a very nasty human who don't forget small things. What is one SUN CODE activity for you? Take care of plants - be a plant parent.",
+      "Many see you as the softest, but you are actually a warrior. You are kind and gentle at your best, but at your worst you can be a very nasty human who don't forget small things. What is one of your SUN CODE activities? Take care of plants - be a plant parent.",
   },
   {
     zodiacName: "taurus",
@@ -37,54 +37,43 @@ var zodiac = [
     zodiacName: "sagittarius",
     birthdayRange: "November 22 - December 21",
     attributes:
-      "Sagittarius, world without you would be boring. You know how to travel and explore. ",
+      "Sagittarius, world without you would be boring. You know how to travel and explore. You are cool, but at your low energy you are too arrogant. What is one of your SUN CODE activities? Go more often on roadtrips or learn a language!",
   },
   {
     zodiacName: "pisces",
     birthdayRange: "February 19 - March 20",
     attributes:
-      "Mysterious and alluring individuals, most Pisces are extremely talented, but even though they are gifted in many ways, they still manage to spend most of their lives battling confusing conditions. Pisces is the sign symbolised by the image of two fish. Their symbol depicts one fish heading upward, the other pulling downward. This mirrors how Pisceans are frequently torn between two pathways in life, or actually do live two very different existences at the same time.",
-    picture:
-      "http://courtneysgamecoderocks.com/ZodiacProject/img/piscesSign.png",
+      "Hello the deep waters! You have the most complicated sign because you are a little bit of them all. At your best you are empathic human being, but at your worst you play the victim role. What is one of your SUN CODE activities? Go more out in nature and alone.",
   },
   {
     zodiacName: "aquarius",
     birthdayRange: "January 20 - February 18",
     attributes:
-      "Special note for Aquarians: At the Dawn of the Age of Aquarius, at this time, ready or not, your sign is regarded as the zodiac's leader. You are the trendsetter for the future and because of this high responsibility, many under born your sign will be undergoing at this time, the pressure of personal change (particularly in your values and what makes you content and happy). Yours has always been a philanthropic sign. Now more than ever these qualities will be highlighted.",
-    picture:
-      "http://courtneysgamecoderocks.com/ZodiacProject/img/aquariusSign.png",
+      "Hello there Miss Little Social Butterfly. Do you ever sleep? Well, you are a collective person, you love to talk and be with people. At your best you are friendly, but at your lowest the terrible weirdo. What is one of your SUN CODE activities? Few times in a month have a day without your phone!",
   },
   {
     zodiacName: "scorpio",
     birthdayRange: "October 23 - November 21",
     attributes:
-      "Reputed to be the most powerful sign of the zodiac, Scorpios lead fate filled lives and have intense and dramatic personal relationships. Even as children Scorpios are often found to be wise beyond their years. Many astrologers call this the sign of the oldest souls. Old and wise beyond the average, Scorpios often know all the answers, except sometimes; they too often have difficulty finding what they need to develop their own happiness.",
-    picture:
-      "http://courtneysgamecoderocks.com/ZodiacProject/img/scorpioSign.png",
+      "Oh the mysterious human. You have the power to rule and be the king or queen. At your best you can lead and be a transformative leader, but at your worst you are brutal and manipulate with people. What is one of your SUN CODE activities? Do some extreme sport activities.",
   },
   {
     zodiacName: "virgo",
     birthdayRange: "August 23 - September 22",
     attributes:
-      "Virgos are often put down badly by many astrologers and written up as being fussy and narrow-minded. But when a Virgo shines, there is practically no sign to match their inner light. An in-tune Virgo is a treat to meet. When a Virgo is confident within themselves they are the most successful, structured and creative of all the signs.",
-    picture:
-      "http://courtneysgamecoderocks.com/ZodiacProject/img/virgoSign.png",
+      "The perfectionist of them all! Well, yes, everyone needs a Virgo in their life because you can structurize everything the best. At your best you are disciplened at work, but at the worst nasty pedant. What is one of your SUN CODE activities? Go to a SPA and have a massage.",
   },
   {
     zodiacName: "libra",
     birthdayRange: "September 23 - October 22",
     attributes:
-      "Every adolescent Libran's fantasy is to find the Prince or Princess of their dreams. As their lives unfold, the experiences, false starts, dramas, broken hearts and disillusionment they encounter seeking this personal Holy Grail, often shapes their futures in the most extra-ordinary manner. Love and love-lost makes a big difference to the Libran although their often happy-go-lucky appearance against all kinds of odds may not reveal this as fact.",
-    picture:
-      "http://courtneysgamecoderocks.com/ZodiacProject/img/libraSign.png",
+      "Hello fashionista. Yup, sort of fashion is related most to you. You are fashionable, friendly and have a beautiful aesthetic taste, but if you are at your low energies you can become snobby and codepenent. What is one of your SUN CODE activities? Go to museums! ",
   },
   {
     zodiacName: "leo",
     birthdayRange: "July 23 - August 22",
     attributes:
-      "People born under the sign of Leo are natural born leaders. They are dramatic, creative self-confident, dominant and extremely difficult to resist. They can achieve anything they want, whether it's about work or time spent will family and friends.",
-    picture: "http://courtneysgamecoderocks.com/ZodiacProject/img/leoSign.png",
+      "The QUEEN/KING of Zodiac circle is here! Hi your Majesty, you are funny, playful and unique, but you can also step into negative side of your sign and become 'too much' type person. What is one of your SUN CODE activities? Have a professional photosession for yourself!",
   },
 ];
 
@@ -108,7 +97,7 @@ function astSign() {
       img.src = zodiac[i].picture;
       return;
     } else {
-      sign.innerHTML = "oops! That's not a sign. Try again";
+      sign.innerHTML = "Oops! Check your English skills! Try again";
       range.innerHTML = " ";
       attributes.innerHTML = " ";
     }

@@ -6,28 +6,37 @@
 .main-container {
   width: 50%;
   margin: auto;
+  color: white;
 }
 
 .formS {
   background-color: #782997;
   width: 50%;
   margin: auto;
+  font-family: "Dosis", sans-serif;
 }
-.formS h1,
-h2 {
+
+.formS h1 {
+  font-size: 22px;
+  text-align: center;
+  color: white;
+}
+
+.formS h2 {
   font-size: 16px;
   text-align: center;
   color: white;
 }
 button {
   margin: 10px auto;
-  background-color: #33bbff;
+  background-color: #f8d556;
   font-weight: bold;
   text-align: center;
   font-size: 2.5vh; /* Adjust the font size as needed */
   display: inline-block;
   border: none;
   color: white;
+  font-family: "Dosis", sans-serif;
   padding: 1vh 2vh; /* Adjust the padding as needed */
   width: 50%;
   display: block;

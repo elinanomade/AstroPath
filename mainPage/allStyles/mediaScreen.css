@@ -1,0 +1,86 @@
+/* Media Queries for Smaller Screens */
+@media screen and (max-width: 768px) {
+  /* Header Section */
+  header {
+    padding: 10px 5%;
+  }
+
+  .navbar-wrapper_right {
+    gap: 10px;
+  }
+
+  .navbar-wrapper_right a {
+    font-size: 16px;
+  }
+
+  .navbar-wrapper_left a img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Media query for smaller screens (e.g., iPhone size) */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  #section_3 {
+    height: auto; /* Remove fixed height */
+    padding: 20px; /* Add some padding for better spacing */
+  }
+
+  h1 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .button-container {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+  }
+
+  .transparent-button {
+    width: 150px; /* Decrease button size for smaller screens */
+    height: 150px;
+    font-size: 18px; /* Decrease font size for button content */
+  }
+
+  /* Add your other responsive styles here */
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  #section_2 {
+    flex-direction: column; /* Stack containers in a column layout on smaller screens */
+    height: auto; /* Remove fixed height */
+  }
+
+  .container {
+    flex-direction: column; /* Stack containers in a column layout on smaller screens */
+  }
+
+  .image-box,
+  .text-box {
+    flex: none; /* Remove flex to prevent side-by-side layout */
+    width: 100%; /* Make both containers full width on smaller screens */
+    margin: 0; /* Remove margin */
+  }
+
+  .text-box {
+    margin-top: 20px; /* Add some spacing between the containers */
+  }
+
+  .profile-image {
+    width: 100%; /* Make the image full width */
+    max-width: 400px; /* Limit the maximum width */
+    height: auto; /* Automatically adjust the height */
+  }
+
+  span {
+    font-size: 18px; /* Reduce font size for smaller screens */
+  }
+
+  .text-content h1 {
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+
+  .text-content p {
+    font-size: 12px; /* Reduce font size for smaller screens */
+  }
+}
