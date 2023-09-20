@@ -26,6 +26,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px; /* Adjust as needed */
+  margin-top: 20px;
 }
 
 /* Style individual text boxes */
@@ -41,13 +42,13 @@
 }
 
 .text-box h1 {
-  font-size: 16px;
+  font-size: 18px;
   color: hsl(0, 0%, 96%);
 }
 
 .text-box p,
 ul {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Media query for responsive layout */
@@ -63,7 +64,7 @@ ul {
 /* Skils container */
 
 #section_3 {
-  height: 80vh;
+  height: 100vh;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -159,4 +160,33 @@ h4 {
   flex-direction: row;
   position: relative;
   font-family: "Dosis", sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Adjust as needed */
+  margin-top: 20px;
+}
+
+/* Style individual text boxes */
+.text-box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #ea32a9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 20px; /* Adjust the margin value as needed */
+  background: rgba(201, 106, 236);
+  border-radius: 5px;
+}
+
+.text-box h1 {
+  font-size: 18px;
+  color: hsl(0, 0%, 96%);
+}
+
+.text-box p,
+ul {
+  font-size: 16px;
 }

@@ -16,7 +16,7 @@
 
 .buttontitle h1 {
   font-size: 31px;
-font-family: "Dosis", sans-serif;
+  font-family: "Dosis", sans-serif;
   letter-spacing: 1px;
   font-size: 38px;
   text-shadow: 2px 2px 4px #000;
@@ -33,12 +33,11 @@ font-family: "Dosis", sans-serif;
   letter-spacing: 5px;
   text-shadow: 2px 2px 4px #000;
   color: #ffffff;
+  word-spacing: -1px;
 }
 
-.button-container {
-  display: flex;
-  justify-content: center; /* Center the buttons horizontally */
-  align-items: center; /* Center the buttons vertically */
+h3 {
+  font-size: 30px;
 }
 
 .transparent-button {
