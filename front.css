@@ -28,3 +28,8 @@ body {
 .image-button:hover {
   transform: scale(1.1); /* Adjust the scaling factor as desired */
 }
+@media (max-width: 768px) {
+  .button-image {
+    width: 400px; /* Adjust the width for smaller screens */
+  }
+}
