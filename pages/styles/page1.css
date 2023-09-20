@@ -1,6 +1,4 @@
 *
-
-/* SECTION 2*/
 /* SECTION 2 */
 
 #section_2 {
@@ -50,17 +48,6 @@
 ul {
   font-size: 16px;
 }
-
-/* Media query for responsive layout */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  .row {
-    flex-direction: column;
-  }
-}
-
 /* Skils container */
 
 #section_3 {
@@ -189,4 +176,39 @@ h4 {
 .text-box p,
 ul {
   font-size: 16px;
+}
+
+/* Media query for responsive layout */
+@media screen and (max-width: 768px) {
+  .text-box {
+    flex: 0 0 100%;
+  }
+  #section_3 {
+    height: auto; /* Remove fixed height */
+    padding: 20px; /* Add some padding for better spacing */
+  }
+  #section_2 {
+    height: auto; /* Remove fixed height */
+    padding: 20px; /* Add some padding for better spacing */
+  }
+  #section_4 {
+    height: auto; /* Remove fixed height */
+    padding: 20px; /* Add some padding for better spacing */
+  }
+  .wholesection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .transparent-button {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
 }
