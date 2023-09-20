@@ -132,3 +132,9 @@
     font-size: 20px; /* Reduce font size for smaller screens */
   }
 }
+
+@media (max-width: 768px) {
+  .navbar-wrapper_right {
+    display: none; /* Hide navbar-wrapper_right on small screens if needed */
+  }
+}

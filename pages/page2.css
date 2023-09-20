@@ -102,59 +102,51 @@ a {
   position: relative;
   font-family: "Dosis", sans-serif;
 }
-
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  /* Remove padding from the container */
-}
-
-span {
-  font-size: 24px;
+  gap: 19px; /* Space between text boxes */
+  padding-top: 50px; /* Space between header navbar and text boxes */
 }
 
 .text-box {
   flex: 1;
-  /* Remove padding from the text box */
-  background-color: rgba(250, 201, 231, 1) 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-.text-box2 {
-  flex: 1;
-  /* Remove padding from the text box */
-  background-color: rgba(250, 201, 231, 1) 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 10px;
+  max-width: 300px; /* Adjust the size as needed for a square box */
+  background-color: #fac9e7;
 }
 
 .text-content {
-  padding: 20px;
+  max-width: 100%;
 }
 
-.text-content h1 {
-  font-size: 18px;
-  margin-bottom: 10px;
+/* Optional: To ensure the text boxes are square-sized */
+.text-box {
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-.text-content p {
-  font-size: 14px;
-  line-height: 1.6;
+.text-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
 }
 
-.text-content2 {
-  padding: 20px;
+.text-box2 {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  max-width: 300px; /* Adjust the size as needed for a square box */
+  background-color: #fac9e7;
 }
 
-.text-content2 h1 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.text-content2 p {
-  font-size: 14px;
-  line-height: 1.6;
-}
 /* FOOTER */
 /* Original styles for larger screens */
 footer {

@@ -14,12 +14,23 @@
   font-family: "Dosis", sans-serif;
 }
 
-h1 {
+.buttontitle h1 {
+  font-size: 31px;
+font-family: "Dosis", sans-serif;
+  letter-spacing: 1px;
+  font-size: 38px;
+  text-shadow: 2px 2px 4px #000;
+  color: #ffffff;
+}
+
+.buttontitle {
+  margin-bottom: 19px;
+}
+.button-content h3 {
   font-size: 33px;
   margin-bottom: 20px;
   font-family: "Dosis", sans-serif;
   letter-spacing: 5px;
-  font-size: 38px;
   text-shadow: 2px 2px 4px #000;
   color: #ffffff;
 }

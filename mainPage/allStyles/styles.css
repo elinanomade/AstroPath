@@ -38,12 +38,10 @@ a {
 
 .navbar-wrapper {
   display: flex;
-  justify-content: flex-end;
 }
 
 .navbar {
   display: flex;
-  gap: 30px;
   align-items: center;
 }
 
@@ -90,13 +88,8 @@ a {
   display: block;
 }
 
-/* .navbar-wrapper_left {
+.navbar-wrapper_right {
   display: flex;
-  /* justify-content: space-between;
-  align-items: center;
-  gap: 30px; 
+  align-items: left;
+  margin-right: 20px; /* Adjust the margin as needed */
 }
-.navbar-wrapper_left a img {
-  max-height: 30px;
-  margin-top: 5px;
-} */

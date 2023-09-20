@@ -13,6 +13,10 @@
         <link rel="stylesheet" href="/mainPage/allStyles/styleSection5.css" />
             <link rel="stylesheet" href="/mainPage/allStyles/styleFooter.css" />
                         <link rel="stylesheet" href="/mainPage/allStyles/mediaScreen.css" />
+<link
+  href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css"
+  rel="stylesheet"
+/>
 
  <link rel="stylesheet" href="/mainPage/allStyles/newsletter.css" />
 
@@ -34,20 +38,27 @@
           <img src="/media/logo.png" alt="My_linkedin" />
         
       </div> -->
+<header>
   <div class="navbar-wrapper">
-  <div class="navbar">
-    <div class="navbar-dropdown">
-      <button class="dropbtn">Menu</button>
-      <div class="dropdown-content">
-        <a href="#section_1">Home</a>
-        <a href="#section_2">About</a>
-        <a href="#section_3">Services</a>
-        <a href="#section_4">Feedback</a>
-        <a href="#section_4">Sun Code</a>
+    <div class="navbar">
+      <div class="navbar-dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="#section_1">Home</a>
+          <a href="#section_2">About</a>
+          <a href="#section_3">Services</a>
+          <a href="#section_4">Feedback</a>
+          <a href="#section_5">Sun Code</a>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+    </div>
+  <div class="navbar-wrapper_right">
+    <p>Your Soul Guide -
+      <strong><span style="font-family: 'Loved by the King', cursive;">Ilze Krasta Caporazo</span></strong></p>
+    </div>
+</header>
+
 
     </header>
     <!-- main banner -->
@@ -92,8 +103,8 @@
     <!-- Skills -->
     <section id="section_3">
    
-
-      <h1>My consultant Services</h1>
+<div class="buttontitle">
+      <h1>My consultant Services</h1></div>
   <div class="button-container">
 <a href="/pages/page1.html">
   <button class="transparent-button button1">
@@ -225,20 +236,21 @@
 </div>
 
 <div class="footer-wrapper_right">
- <div class="page">
-   
-  <p>subscribe to a newsletter</p>
-  <form action="#">
-    <input type="https://www.google.com/" placeholder="Email (e.g. someone@host.com)" />
-    <input type="submit" value="Subscribe" />
+<div class="page">
+  <p>Subscribe to our newsletter</p>
+  <form action="#" id="subscribe-form">
+    <input type="email" id="email-input" placeholder="Email (e.g. someone@host.com)" required>
+    <input type="submit" value="Subscribe">
   </form>
-  
+  <div id="confirmation-message" style="display: none;"></div>
 </div>
+
       </div>
     </footer>
     <script src="/mainPage/js/testimonial.js"></script>
        <script src="/mainPage/js/zodiac.js"></script>
  <script src="newsletter.js"></script>
+ <script src="main.js"></script>
 
       </body>
 </html>

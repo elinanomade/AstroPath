@@ -1,0 +1,162 @@
+*
+
+/* SECTION 2*/
+/* SECTION 2 */
+
+#section_2 {
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  background: #fac9e7;
+  flex-direction: row;
+  position: relative;
+  font-family: "Dosis", sans-serif;
+}
+/* Style the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+/* Style the row containing the first two text divs */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+/* Style individual text boxes */
+.text-box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #ea32a9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 20px; /* Adjust the margin value as needed */
+  background: rgba(201, 106, 236);
+  border-radius: 5px;
+}
+
+.text-box h1 {
+  font-size: 16px;
+  color: hsl(0, 0%, 96%);
+}
+
+.text-box p,
+ul {
+  font-size: 14px;
+}
+
+/* Media query for responsive layout */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Skils container */
+
+#section_3 {
+  height: 80vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(250, 201, 231);
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  font-family: "Dosis", sans-serif;
+}
+
+h1 {
+  font-size: 33px;
+  margin-bottom: 20px;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 5px;
+  font-size: 38px;
+  text-shadow: 2px 2px 4px #000;
+  color: #ffffff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+}
+
+.transparent-button {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid #000;
+  overflow: hidden;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  margin-right: 19px;
+
+  line-height: 100px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: larger;
+}
+
+.wholesection {
+  justify-content: center;
+  align-items: center;
+}
+
+.transparent-button:last-child {
+  margin-right: 19px;
+}
+
+/* Define individual button colors and hover animation */
+.button1 {
+  background: rgba(109, 141, 248, 0.7);
+  /* You can also use other image formats like PNG, GIF, etc. */
+  background-size: cover; /* This property scales the image to cover the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  font-family: "Dosis", sans-serif;
+  font-size: 31px;
+  text-shadow: 2px 2px 4px #000;
+  color: #f5f6fc;
+}
+
+.button2 {
+  background: rgba(201, 106, 236, 0.7);
+  /* You can also use other image formats like PNG, GIF, etc. */
+  background-size: cover; /* This property scales the image to cover the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  font-family: "Dosis", sans-serif;
+  font-size: 31px;
+  text-shadow: 2px 2px 4px #000;
+  color: #fcf5fb;
+}
+
+.button1,
+.button2 p {
+  font-size: 8px;
+  letter-spacing: 0px;
+}
+
+#section_4 {
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  background: #fac9e7;
+  flex-direction: row;
+  position: relative;
+  font-family: "Dosis", sans-serif;
+}

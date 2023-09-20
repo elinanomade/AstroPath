@@ -8,11 +8,6 @@ footer {
   font-family: "Dosis", sans-serif;
 }
 
-.footer-wrapper_right img {
-  max-width: 30px;
-  max-height: 30px; /* Adjust the maximum height as needed */
-}
-
 .footer-middle {
   display: flex;
   flex-direction: column; /* Display items in a row for larger screens */
