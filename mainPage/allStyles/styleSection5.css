@@ -17,16 +17,20 @@
   font-family: "Dosis", sans-serif;
 }
 
+#your-sign::placeholder {
+  color: black;
+}
+
 .formS h1 {
   font-size: 22px;
   text-align: center;
-  color: rgb(75, 64, 64);
+  color: rgb(255, 255, 255);
 }
 
 .formS h2 {
   font-size: 16px;
   text-align: center;
-  color: rgb(62, 53, 53);
+  color: rgb(255, 255, 255);
 }
 
 button[type="button"] {
