@@ -1,4 +1,4 @@
-"use script";
+"use strict";
 
 const testimonials = document.querySelectorAll(".testimonial");
 const prevButton = document.getElementById("prev");

@@ -20,13 +20,13 @@
 .formS h1 {
   font-size: 22px;
   text-align: center;
-  color: white;
+  color: rgb(75, 64, 64);
 }
 
 .formS h2 {
   font-size: 16px;
   text-align: center;
-  color: white;
+  color: rgb(62, 53, 53);
 }
 
 button[type="button"] {
