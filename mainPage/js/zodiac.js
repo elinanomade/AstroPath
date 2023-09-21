@@ -99,3 +99,7 @@ function astSign() {
   range.innerHTML = "";
   attributes.innerHTML = "";
 }
+
+// This code provides a simple way for users to input a zodiac sign,
+// and it dynamically displays information about that sign if it's found in the
+// zodiac array.If the input is invalid or not recognized, it shows an error message.

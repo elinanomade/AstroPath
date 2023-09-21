@@ -27,3 +27,8 @@ function saveEmailToDatabase(email) {
   // Here, we're just logging it to the console as a placeholder.
   console.log(`Saving email to database: ${email}`);
 }
+
+// This is a named function named saveEmailToDatabase.
+// It takes an email parameter and, in a real application,
+// would handle the task of saving the email to a database.In this example,
+// it simply logs the email to the console as a placeholder.

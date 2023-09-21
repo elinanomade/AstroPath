@@ -31,3 +31,6 @@ prevButton.addEventListener("click", prevTestimonial);
 
 // Initially, show the first testimonial
 showTestimonial(currentIndex);
+
+// This code provides a simple testimonial slider that allows users to cycle through testimonials
+// using the provided buttons. It does this by adjusting the opacity of testimonial elements to show or hide them.

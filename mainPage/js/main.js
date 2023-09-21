@@ -15,3 +15,7 @@ window.onscroll = function () {
 
   prevScrollPos = currentScrollPos;
 };
+
+// This code creates a smooth hide/show effect for a header element when the user scrolls the page.
+// It's a common technique used to provide more screen space for content as the user scrolls
+// down and reveal navigation when they scroll up.
