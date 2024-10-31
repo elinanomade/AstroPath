@@ -7,6 +7,7 @@
 
   .navbar-wrapper_right {
     gap: 10px;
+    display: none; /* Hide navbar-wrapper_right on small screens if needed */
   }
 
   .navbar-wrapper_right a {
@@ -17,19 +18,16 @@
     width: 20px;
     height: 20px;
   }
-}
 
-/* Media query for smaller screens (e.g., max-width: 768px) */
-@media screen and (max-width: 768px) {
-  /* Hide the background image and logo */
+  /* Section 1 Background Adjustments */
   #section_1 {
     background: none;
   }
+
   .wrapper-logo {
     display: none;
   }
 
-  /* Show a new photo (adjust the URL as needed) */
   #section_1::before {
     content: "";
     display: block;
@@ -38,103 +36,89 @@
     background: url("/media/smallscreenimage.png") no-repeat center center;
     background-size: cover;
   }
-}
 
-@media screen and (max-width: 768px) {
-  /* Adjust styles for smaller screens */
+  /* Section 2 Layout Adjustments */
   #section_2 {
-    flex-direction: column; /* Stack containers in a column layout on smaller screens */
-    height: auto; /* Remove fixed height */
+    flex-direction: column; /* Stack containers in a column layout */
+    height: auto;
   }
 
   .container {
-    flex-direction: column; /* Stack containers in a column layout on smaller screens */
+    flex-direction: column;
   }
 
   .image-box,
   .text-box {
-    flex: none; /* Remove flex to prevent side-by-side layout */
-    width: 100%; /* Make both containers full width on smaller screens */
-    margin: 0; /* Remove margin */
+    width: 100%;
+    margin: 0;
   }
 
   .text-box {
-    margin-top: 20px; /* Add some spacing between the containers */
+    margin-top: 20px;
   }
 
   .profile-image {
-    width: 100%; /* Make the image full width */
-    max-width: 300px; /* Limit the maximum width */
-    height: auto; /* Automatically adjust the height */
+    width: 100%;
+    max-width: 300px;
+    height: auto;
   }
 
   span {
-    font-size: 18px; /* Reduce font size for smaller screens */
+    font-size: 18px;
   }
 
   .text-content h1 {
-    font-size: 16px; /* Reduce font size for smaller screens */
+    font-size: 16px;
   }
 
   .text-content p {
-    font-size: 12px; /* Reduce font size for smaller screens */
+    font-size: 12px;
   }
-}
 
-/* Media query for smaller screens (e.g., iPhone size) */
-@media screen and (max-width: 768px) {
-  /* Adjust styles for smaller screens */
+  /* Section 3 Adjustments */
   #section_3 {
-    height: auto; /* Remove fixed height */
-    padding: 20px; /* Add some padding for better spacing */
+    height: auto;
+    padding: 20px;
   }
 
   h1 {
-    font-size: 24px; /* Reduce font size for smaller screens */
+    font-size: 24px;
   }
 
   .button-container {
-    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    flex-direction: column; /* Stack buttons vertically */
   }
 
   .transparent-button {
-    width: 150px; /* Decrease button size for smaller screens */
+    width: 150px;
     height: 150px;
-    font-size: 18px; /* Decrease font size for button content */
+    font-size: 18px;
   }
+
   .transparent-button:last-child {
     margin-bottom: 19px;
   }
-  /* Add your other responsive styles here */
-}
 
-/* Media query for smaller screens (e.g., screens with a max-width of 768px) */
-@media screen and (max-width: 768px) {
+  /* Footer Adjustments */
   footer {
-    flex-direction: column; /* Stack items in a column for smaller screens */
-    text-align: center; /* Center-align text for smaller screens */
+    flex-direction: column;
+    text-align: center;
   }
 
   .footer-wrapper_right img {
-    max-width: 20px; /* Reduce the size of images for smaller screens */
-    max-height: 20px; /* Adjust the maximum height as needed */
+    max-width: 20px;
+    max-height: 20px;
   }
 
   .footer-middle {
-    flex-direction: column; /* Stack items in a column for smaller screens */
+    flex-direction: column;
   }
 
   .footer-middle p {
-    font-size: 12px; /* Reduce font size for smaller screens */
+    font-size: 12px;
   }
 
   .footer-middle h3 {
-    font-size: 20px; /* Reduce font size for smaller screens */
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar-wrapper_right {
-    display: none; /* Hide navbar-wrapper_right on small screens if needed */
+    font-size: 20px;
   }
 }
